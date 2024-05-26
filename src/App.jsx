@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.sass';
+import './App.scss';
 import Menu from './includes/Menu';
 import Footer from './includes/Footer';
 
