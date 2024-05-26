@@ -1,3 +1,15 @@
+$color1: #aadfa0;
+$color2: #e1ffe7;
+$color3: #dce2aa;
+$color4: #b57f50;
+$color5: #4b543b;
+$color6: #b4d2ba;
+$color7: #84d474;
+
+.navbar-light {
+	background-color: $color7;
+}
+
 .logo {
 	height: 6em;
 	padding: 1.5em;
@@ -30,6 +42,17 @@
 
 .card {
 	padding: 2em;
+	border-radius: 0px;
+}
+
+.card-color {
+	background-color: $color1;
+	border-color: $color1;
+}
+
+.card-light {
+	background-color: #fff;
+	border-color: #fff;
 }
 
 .read-the-docs {
@@ -40,14 +63,17 @@ footer {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: #333; // Cambia esto al color deseado
+	background-color: $color5; // Cambia esto al color deseado
 	color: #fff; // Cambia esto al color deseado
 }
-
+.footer {
+	font-size: 1rem;
+	text-align: center;
+}
 // Definimos los colores de fondo para las secciones
 $section-colors: (
-	'section-1': #e9ecef,
-	'section-2': #adb5bd,
+	"section-1": $color2,
+	"section-2": $color4
 );
 
 // Creamos las clases para las secciones
@@ -58,8 +84,14 @@ $section-colors: (
 			justify-content: center;
 			.col {
 				flex: 1;
+				p {
+					color: #000;
+					font-size: 1.2rem;
+					line-height: 2;
+				}
 				.card {
-					background-color: #fefefe;
+					padding: 5rem;
+					min-height: 650px;
 				}
 			}
 		}

@@ -1,10 +1,16 @@
+$color1: #8ed081;
+$color2: #b4d2ba;
+$color3: #dce2aa;
+$color4: #b57f50;
+$color5: #4b543b;
+
 :root {
 	font-family: Helvetica, Arial, sans-serif;
 	line-height: 1.5;
 	font-weight: 400;
 	color-scheme: light dark;
 	color: rgb(255, 255, 255);
-	background-color: #242424;
+	background-color: $color1;
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -33,7 +39,7 @@ button.btn-to {
 	font-size: 1em;
 	font-weight: 500;
 	font-family: inherit;
-	background-color: #1a1a1a;
+	background-color: $color4;
 	cursor: pointer;
 	transition: border-color 0.25s;
 }
