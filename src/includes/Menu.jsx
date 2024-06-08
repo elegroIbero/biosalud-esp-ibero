@@ -39,7 +39,7 @@ const Menu = () => {
 
 				<Nav className='d-none d-lg-block' as='nav'>
 					<NavDropdown title='Cuenta' id='collapsible-nav-dropdown-02'>
-						<Link className='dropdown-item' to='/'>
+						<Link className='dropdown-item' to='/login'>
 							Iniciar sesión
 						</Link>
 						<Link className='dropdown-item' to='/home'>
