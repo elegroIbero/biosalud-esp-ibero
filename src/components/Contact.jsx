@@ -1,4 +1,4 @@
-import { Card, Col, Row, Form } from 'react-bootstrap';
+import { Card, Col, Row, Form, Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 
 const Contact = function () {
@@ -16,13 +16,22 @@ const Contact = function () {
 								</p>
 								<Form>
 									<Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
-										<Form.Label>Email address</Form.Label>
+										<Form.Label>Nombre completo</Form.Label>
+										<Form.Control type='nombre' placeholder='nombre' />
+									</Form.Group>
+									<Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
+										<Form.Label>Telefono</Form.Label>
+										<Form.Control type='nombre' placeholder='nombre' />
+									</Form.Group>
+									<Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
+										<Form.Label>Email</Form.Label>
 										<Form.Control type='email' placeholder='name@example.com' />
 									</Form.Group>
 									<Form.Group className='mb-3' controlId='exampleForm.ControlTextarea1'>
-										<Form.Label>Example textarea</Form.Label>
+										<Form.Label>Asunto de contacto</Form.Label>
 										<Form.Control as='textarea' rows={3} />
 									</Form.Group>
+									<Button type='submit'>Enviar</Button>
 								</Form>
 							</Card.Body>
 						</Card>

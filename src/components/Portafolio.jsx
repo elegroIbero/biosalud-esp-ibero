@@ -2,6 +2,8 @@ import { Card, Col, Row, Table } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import recicle from '/reciclaje_indus.png';
 import manejo from '/imagenx.jpeg';
+import veshchestv from '/veshchestv.jpg';
+import aseca from '/aseca.jpg';
 
 const Portafolio = () => {
 	return (
@@ -18,18 +20,82 @@ const Portafolio = () => {
 									</p>
 									<Card.Text>
 										En BioSalud S.A.S, estamos comprometidos con la protección de la salud pública y el medio ambiente
-										mediante la gestión eficiente y responsable de desechos biológicos. Conscientes de los desafíos que
-										enfrenta el sector, ofrecemos una gama de servicios diseñados para abordar los riesgos, costos
-										elevados y barreras para el crecimiento que impactan a las empresas recolectoras y a la comunidad en
-										general.
+										mediante la gestión eficiente y responsable de desechos biológicos.
+										<br /> Conscientes de los desafíos que enfrenta el sector, ofrecemos una gama de servicios diseñados
+										para abordar los riesgos, costos elevados y barreras para el crecimiento que impactan a las empresas
+										recolectoras y a la comunidad en general.
 									</Card.Text>
+									<p className='text-center p-4'>
+										<img src={manejo} className='img-responsive' alt='Vite logo' width={200} />
+									</p>
+									<h4 className='pt-4'>Manejo de los desechos biologicos</h4>
+									<p>Compatimos el siguiente Webinar de manejo de los desechos bilogicos de la Corporativo CIPSA</p>
+									<p>
+										Manejo de residuos peligrosos biológico-infecciosos. Clasificación y especificaciones de manejo
+										basados en la Norma Oficial Internacional NOM-087-ECOL-SSA1-2002
+									</p>
+									<iframe
+										width='100%'
+										height='315'
+										src='https://www.youtube.com/embed/0U_khWY4qus?si=8b06IBMWLRhwqHiM'
+										title='YouTube video player'
+										allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+										allowfullscreen
+									></iframe>
 								</Card.Body>
 							</Card>
 						</Col>
 						<Col className='p-4'>
 							<Card className='card-color h-100'>
 								<Card.Body>
-									<Card.Title>Nuestros Servicios</Card.Title>
+									<Card.Title>
+										<b>Nuestros Servicios</b>
+									</Card.Title>
+									<Card.Text>
+										<i>Recolección Segura de Desechos Biológicos</i>
+										<br />
+										Descripción: Proporcionamos un servicio de recolección de desechos biológicos seguro y eficiente,
+										adaptado a las necesidades específicas de clínicas, hospitales y laboratorios.
+										<br />
+										Beneficios: Reducción de riesgos para la salud y el medio ambiente mediante prácticas seguras y
+										reguladas.
+										<br />
+										<br />
+										<strong>Transporte Especializado</strong>
+										<br />
+										Descripción: Contamos con una flota de vehículos equipados y certificados para el transporte seguro
+										de desechos biológicos.
+										<p className='text-center'>
+											<img src={aseca} className='img-responsive' alt='Vite logo' width={400} />
+										</p>
+										<br />
+										Beneficios: Minimización de incidentes y cumplimiento de las normativas de transporte de materiales
+										peligrosos.
+										<br />
+										<br />
+										<strong>Disposición Final Responsable</strong>
+										<br />
+										Descripción: Ofrecemos servicios de eliminación de desechos en plantas de tratamiento autorizadas,
+										asegurando que los residuos sean manejados de manera adecuada.
+										<br />
+										Beneficios: Reducción del impacto ambiental y promoción de prácticas sostenibles.
+										<br />
+										<br />
+										<strong>Consultoría y Capacitación</strong>
+										<br />
+										Descripción: Brindamos asesoría y programas de capacitación para el manejo adecuado de desechos
+										biológicos.
+										<br />
+										Beneficios: Aumento de la conciencia y competencias del personal, mejorando la seguridad y
+										eficiencia operativa.
+									</Card.Text>
+								</Card.Body>
+							</Card>
+						</Col>
+						<div className='p-4'>
+							<Card className='card-color h-100'>
+								<Card.Body>
+									<Card.Title className='mb-4'>Tabla Nuestros Servicios</Card.Title>
 									<Table striped bordered hover>
 										<thead>
 											<tr>
@@ -118,52 +184,7 @@ const Portafolio = () => {
 									</Table>
 								</Card.Body>
 							</Card>
-						</Col>
-						<Col className='p-4'>
-							<Card className='card-color h-100'>
-								<Card.Body>
-									<Card.Title>Nuestros Servicios</Card.Title>
-									<Card.Text>
-										<strong>Recolección Segura de Desechos Biológicos</strong>
-										<br />
-										Descripción: Proporcionamos un servicio de recolección de desechos biológicos seguro y eficiente,
-										adaptado a las necesidades específicas de clínicas, hospitales y laboratorios.
-										<br />
-										Beneficios: Reducción de riesgos para la salud y el medio ambiente mediante prácticas seguras y
-										reguladas.
-										<br />
-										<br />
-										<strong>Transporte Especializado</strong>
-										<br />
-										Descripción: Contamos con una flota de vehículos equipados y certificados para el transporte seguro
-										de desechos biológicos.
-										<br />
-										Beneficios: Minimización de incidentes y cumplimiento de las normativas de transporte de materiales
-										peligrosos.
-										<br />
-										<br />
-										<strong>Disposición Final Responsable</strong>
-										<br />
-										Descripción: Ofrecemos servicios de eliminación de desechos en plantas de tratamiento autorizadas,
-										asegurando que los residuos sean manejados de manera adecuada.
-										<br />
-										Beneficios: Reducción del impacto ambiental y promoción de prácticas sostenibles.
-										<br />
-										<br />
-										<strong>Consultoría y Capacitación</strong>
-										<br />
-										Descripción: Brindamos asesoría y programas de capacitación para el manejo adecuado de desechos
-										biológicos.
-										<br />
-										Beneficios: Aumento de la conciencia y competencias del personal, mejorando la seguridad y
-										eficiencia operativa.
-									</Card.Text>
-									<p className='text-center'>
-										<img src={manejo} className='img-responsive' alt='Vite logo' width={400} />
-									</p>
-								</Card.Body>
-							</Card>
-						</Col>
+						</div>
 					</Row>
 				</Container>
 
@@ -172,9 +193,11 @@ const Portafolio = () => {
 						<Col className='p-4'>
 							<Card className='card-color h-100'>
 								<Card.Body>
-									<Card.Title>Principios y Desafíos Abordados</Card.Title>
+									<Card.Title>
+										<b>Principios y Desafíos Abordados</b>
+									</Card.Title>
 									<Card.Text>
-										<strong>Riesgos para la Salud y el Medio Ambiente</strong>
+										<i>Riesgos para la Salud y el Medio Ambiente</i>
 										<br />
 										Desafío: La gestión inadecuada de desechos biológicos puede causar graves incidentes que afecten la
 										salud de la comunidad y dañen el ecosistema.
@@ -208,13 +231,18 @@ const Portafolio = () => {
 						<Col className='p-4'>
 							<Card className='card-light h-100'>
 								<Card.Body>
-									<Card.Title>Objetivo del Proyecto</Card.Title>
+									<Card.Title className='pb-4'>
+										<b>Objetivo del Proyecto</b>
+									</Card.Title>
 									<Card.Text>
 										Nuestro objetivo es diseñar e implementar soluciones que aborden estos desafíos de manera integral,
 										asegurando un sistema de recolección de desechos biológicos que sea eficiente, seguro y sostenible.
 										Con BioSalud S.A.S, puede estar seguro de que está contribuyendo a un futuro más saludable y
 										respetuoso con el medio ambiente.
 									</Card.Text>
+									<p className='text-center'>
+										<img src={veshchestv} className='img-responsive' alt='Vite logo' width={400} />
+									</p>
 								</Card.Body>
 							</Card>
 						</Col>

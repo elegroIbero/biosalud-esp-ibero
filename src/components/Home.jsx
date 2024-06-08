@@ -4,6 +4,7 @@ import planet from '/planet-illustration.png';
 import recicle from '/reciclaje_indus.png';
 import logotipo from '/logo.png';
 import imfondo from '/desechos_back.png';
+import laborat from '/laborat.jpg';
 import 'bootstrap/scss/bootstrap-grid.scss';
 
 const Home = function () {
@@ -33,15 +34,17 @@ const Home = function () {
 							<p className='text-center'>
 								<img src={recicle} className='img-fluid' alt='Vite logo' width={400} />
 							</p>
-							<p className='mb-4'>
+							<p className='mb-4 text-center'>
 								En BioSalud S.A.S, entendemos la importancia de una gestión adecuada de los desechos biológicos para la
-								protección de la salud pública y el medio ambiente. 
+								protección de la salud pública y el medio ambiente.
 							</p>
-							<p>
-								<b>Reducir el Riesgo de Contaminación:</b> <br/>
-								Nos comprometemos a implementando prácticas seguras y responsables. Minimizar el Impacto
-								Ambiental: Utilizando tecnologías que favorecen la sostenibilidad. Promover la Seguridad: Garantizando
-								que todo nuestro personal esté debidamente capacitado y equipado.
+							<h4 className='mt-4'>
+								<b>Reducir el Riesgo de Contaminación</b>
+							</h4>
+							<p className='text-center'>
+								Nos comprometemos a implementando prácticas seguras y responsables. Minimizar el Impacto Ambiental:
+								Utilizando tecnologías que favorecen la sostenibilidad. Promover la Seguridad: Garantizando que todo
+								nuestro personal esté debidamente capacitado y equipado.
 							</p>
 						</Card>
 					</Col>
@@ -55,8 +58,9 @@ const Home = function () {
 				<Row>
 					<Col className='p-4'>
 						<Card className='card-color'>
-							<h4 className='mb-4'>Nuestros Servicios</h4>
-							<h5 className='mb-4'>Recolección de Desechos Biológicos</h5>
+							<h4 className='mb-4'>
+								<b>Recolección de Desechos Biológicos</b>
+							</h4>
 							<p>
 								Servicio programado y a demanda. Personal capacitado en manejo de desechos peligrosos. Equipos
 								especializados para la recolección segura.
@@ -70,26 +74,34 @@ const Home = function () {
 								Procesos de eliminación que minimizan el impacto ambiental. Plantas de tratamiento certificadas.
 								Trazabilidad completa del manejo de los residuos.
 							</p>
-						</Card>
-					</Col>
-					<Col className='p-4'>
-						<Card className='card-light'>
+
 							<p>
 								En BioSalud S.A.S, implementamos soluciones tecnológicas de vanguardia para asegurar un manejo integral
 								y transparente de los desechos biológicos. Nuestro sistema CRM y nuestra App móvil están diseñados para:
 							</p>
-							<h4 className='mb-4'>Registro y Seguimiento Preciso:</h4>
-							<p>
-								Captura de datos en tiempo real sobre la recolección de desechos. Control de Asistencia: Monitoreo de la
-								asistencia del personal en los puntos de recolección. Gestión Integral: Administración eficiente de
-								todas las operaciones, desde la recolección hasta la disposición final. Beneficios para Nuestros
-								Clientes
+						</Card>
+					</Col>
+					<Col className='p-4'>
+						<Card className='card-light'>
+							<h3 className='mb-4'>
+								<b>Registro y Seguimiento Preciso</b>
+							</h3>
+							<p className='text-left'>
+								Captura de datos en tiempo real sobre la recolección de desechos.
+								<br />
+								Control de Asistencia: Monitoreo de la asistencia del personal en los puntos de recolección. Gestión
+								Integral: Administración eficiente de todas las operaciones, desde la recolección hasta la disposición
+								final. Beneficios para Nuestros Clientes
 							</p>
-							<h4 className='mb-4'>Trazabilidad Completa:</h4>
-							<p>
-								Acceso a información detallada sobre el manejo de sus desechos. Cumplimiento Normativo: Garantía de
-								cumplimiento con todas las regulaciones vigentes. Eficiencia Operativa: Optimización de procesos
-								logísticos y administrativos.
+
+							<p className='text-center'>
+								<img src={laborat} className='img-responsive' alt='Vite logo' width={400} />
+							</p>
+							<h4 className='mt-4'>Trazabilidad Completa</h4>
+							<p className='text-left'>
+								Acceso a información detallada sobre el manejo de sus desechos.
+								<br /> Cumplimiento Normativo: Garantía de cumplimiento con todas las regulaciones vigentes.
+								<br /> Eficiencia Operativa: Optimización de procesos logísticos y administrativos.
 							</p>
 						</Card>
 					</Col>
@@ -98,7 +110,9 @@ const Home = function () {
 
 			<Container as='section'>
 				<Row className='m-4'>
-					<h4 className='text-center'>Equipo Ibero</h4>
+					<h3 className='text-center'>
+						<b>Equipo Ibero</b>
+					</h3>
 				</Row>
 				<Row className='justify-content-center'>
 					<div className='col-4'>
@@ -124,8 +138,16 @@ const Home = function () {
 						<Card className='card-light'>
 							<img src={logotipo} className='mx-auto d-block' width={150} />
 							<div className='card-body'>
-								<h5 className='card-title'>Card title</h5>
-								<p>Some quick example text to build on the card title and make up the bulk of ths content.</p>
+								<h5 className='card-title text-center'>Duverney Robayo Lopez</h5>
+								<p className='text-center'>
+									Soy estudiante de la Universidad Iberoamericana y actualmente curso 6 semestre de Ingenieria De
+									Software
+								</p>
+								<ul>
+									<li className='list-group-item'>* Curso Análisis y Diseño De Sistemas</li>
+									<li className='list-group-item'>* Facultad Ingenieria De Software</li>
+									<li className='list-group-item'>* Semestre Número VI</li>
+								</ul>
 							</div>
 						</Card>
 					</div>
