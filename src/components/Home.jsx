@@ -33,12 +33,13 @@ const Home = function () {
 							<p className='text-center'>
 								<img src={recicle} className='img-fluid' alt='Vite logo' width={400} />
 							</p>
-							<p>
+							<p className='mb-4'>
 								En BioSalud S.A.S, entendemos la importancia de una gestión adecuada de los desechos biológicos para la
-								protección de la salud pública y el medio ambiente. Nos comprometemos a:
+								protección de la salud pública y el medio ambiente. 
 							</p>
 							<p>
-								Reducir el Riesgo de Contaminación: Implementando prácticas seguras y responsables. Minimizar el Impacto
+								<b>Reducir el Riesgo de Contaminación:</b> <br/>
+								Nos comprometemos a implementando prácticas seguras y responsables. Minimizar el Impacto
 								Ambiental: Utilizando tecnologías que favorecen la sostenibilidad. Promover la Seguridad: Garantizando
 								que todo nuestro personal esté debidamente capacitado y equipado.
 							</p>
