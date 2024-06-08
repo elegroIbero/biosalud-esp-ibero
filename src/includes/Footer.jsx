@@ -13,6 +13,8 @@ const Footer = function () {
 							con nosotros.
 						</p>
 						<ul>
+							<li className='list-group-item'>EDWIN ANDRES LEGRO AGUDELO elegroag@ibero.edu.co </li>
+							<li className='list-group-item'>DUVERNEY ROBAYO LOPEZ drobayol@ibero.estudiante.edu.co </li>
 							<li className='list-group-item'>Teléfono: +57 123 456 7890</li>
 							<li className='list-group-item'>Correo Electrónico: info@biosalud.com</li>
 							<li className='list-group-item'>Dirección: Calle 123, Bogotá, Colombia</li>
