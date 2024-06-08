@@ -1,10 +1,15 @@
 import { defineConfig } from 'vite';
 import babel from '@vitejs/plugin-react';
-import sass from 'vite-plugin-sass';
 
 export default defineConfig({
+	css: {
+		preprocessorOptions: {
+			scss: {
+				additionalData: `@import "./src/_variables.scss";`,
+			},
+		},
+	},
 	plugins: [
-		sass(),
 		babel({
 			filter: /\.[jt]sx?$/,
 			babelConfig: {

@@ -1,13 +1,27 @@
-$color1: #aadfa0;
-$color2: #e1ffe7;
-$color3: #dce2aa;
-$color4: #b57f50;
-$color5: #4b543b;
-$color6: #b4d2ba;
-$color7: #84d474;
 
 .navbar-light {
 	background-color: $color7;
+}
+
+.navbar-light nav a {
+	color: $color5;
+	font-size: 1.1rem;
+}
+.navbar-brand {
+	padding-top: 18px;
+	color: $color2;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus, 
+.navbar-brand span:hover,
+.navbar-brand span:focus {
+	color: $color3;
+}
+
+.navbar-brand img {
+	position: relative;
+	top: -5px;
 }
 
 .logo {
@@ -60,12 +74,14 @@ $color7: #84d474;
 }
 
 footer {
+	padding: 3px;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	background-color: $color5; // Cambia esto al color deseado
 	color: #fff; // Cambia esto al color deseado
 }
+
 .footer {
 	font-size: 1rem;
 	text-align: center;
