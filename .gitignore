@@ -22,4 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-public/
+public/*
+!public/*.png
+!public/*.jpeg
+!public/*.jpg
