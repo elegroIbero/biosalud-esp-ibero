@@ -12,9 +12,9 @@ const Menu = () => {
 			<Container>
 				<Link className='navbar-brand' to='/'>
 					<img src={logo} className='d-inline-block align-text-top' alt='Vite logo' width={40} />
-					<span className='h4'>  BioSalud S.A.S</span>
+					<span className='h4'> BioSalud S.A.S</span>
 				</Link>
-				<Navbar.Toggle aria-controls='responsive-navbar-nav'/>
+				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
 					<Nav className='me-auto my-2 my-lg-0' as='nav'>
 						<Link className='nav-link' to='/'>
@@ -41,9 +41,6 @@ const Menu = () => {
 					<NavDropdown title='Cuenta' id='collapsible-nav-dropdown-02'>
 						<Link className='dropdown-item' to='/login'>
 							Iniciar sesión
-						</Link>
-						<Link className='dropdown-item' to='/home'>
-							Registrar
 						</Link>
 					</NavDropdown>
 				</Nav>

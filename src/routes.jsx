@@ -4,6 +4,7 @@ import { Home } from './components/Home';
 import { Contact } from './components/Contact';
 import { Error404 } from './components/Error404';
 import { Portafolio } from './components/Portafolio';
+import { Login } from './components/Login';
 import { useEffect } from 'react';
 
 const ScrollToTop = function () {
@@ -24,6 +25,7 @@ const AppRoutes = function () {
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/portafolio' element={<Portafolio />} />
 				<Route path='*' element={<Error404 />} />
+				<Route path='/login' element={<Login />} />
 			</Routes>
 		</App>
 	);
