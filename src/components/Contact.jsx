@@ -21,7 +21,7 @@ const Contact = function () {
 									</Form.Group>
 									<Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
 										<Form.Label>Telefono</Form.Label>
-										<Form.Control type='nombre' placeholder='nombre' />
+										<Form.Control type='nombre' placeholder='telefono' />
 									</Form.Group>
 									<Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
 										<Form.Label>Email</Form.Label>
